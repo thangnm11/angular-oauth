@@ -11,9 +11,9 @@ angular.module('demo', ['googleOauth']).
     var baseUrl = document.URL.replace('example/demo.html', '');
 
     TokenProvider.extendConfig({
-      clientId: '191261111313.apps.googleusercontent.com',
+      clientId: '4231b4c2-0c35-47ea-8960-be5f5a2e92a1',
       redirectUri: baseUrl + 'src/oauth2callback.html',  // allow lunching demo from a mirror
-      scopes: ["https://www.googleapis.com/auth/userinfo.email"]
+      scopes: ["api://4231b4c2-0c35-47ea-8960-be5f5a2e92a1/token"]
     });
   }).
 

@@ -1,0 +1,38 @@
+https://portal.azure.com/#home
+	Manage Azure Active Directory
+		View
+			Add
+				App registration
+					Register an application
+						...
+
+URL APP OAuth2: https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationMenuBlade/~/Overview/appId/4231b4c2-0c35-47ea-8960-be5f5a2e92a1/objectId/893b6deb-dcd7-4f9a-80d0-b1e1670e2edc/isMSAApp~/false/defaultBlade/Overview/appSignInAudience/AzureADMyOrg/servicePrincipalCreated~/true
+
+Overview
+	Display name: SmartCA
+	Application (client) ID: 4231b4c2-0c35-47ea-8960-be5f5a2e92a1
+	Object ID: 893b6deb-dcd7-4f9a-80d0-b1e1670e2edc
+	Directory (tenant) ID: c5bcb2d8-6b4a-4cd4-a517-7cd85a7a8a55
+	Supported account types: My organization only
+	Client credentials: Add a certificate or secret
+	Redirect URIs: 2 web, 0 spa, 0 public client
+	Application ID URI: api://4231b4c2-0c35-47ea-8960-be5f5a2e92a1
+	Managed application in local directory: SmartCA
+
+Authentication
+	Web
+		Redirect URIs:
+			http://localhost:8099/oauth2/src/oauth2callback.html
+			http://localhost:8099/oauth2/example/demo.html
+			
+	Implicit grant and hybrid flows
+		Access tokens (used for implicit flows)
+		ID tokens (used for implicit and hybrid flows)
+		
+	Expose an API
+		Application ID URI: api://4231b4c2-0c35-47ea-8960-be5f5a2e92a1
+		Scopes:
+			api://4231b4c2-0c35-47ea-8960-be5f5a2e92a1/token
+			
+Manifest
+	"oauth2AllowIdTokenImplicitFlow": true,
