@@ -1,0 +1,11 @@
+https://console.cloud.google.com/welcome?project=forum-it&hl=vi
+	https://console.cloud.google.com/home/dashboard?hl=vi&project=forum-it
+		 APIs & Services
+			Credentials 
+				OAuth 2.0 Client IDs > https://console.cloud.google.com/apis/credentials?hl=vi&project=forum-it
+					Name: "Web client 2" > https://console.cloud.google.com/apis/credentials/oauthclient/864028386467-k9vsps9rskj9ji8jc072nf8brrfndod0.apps.googleusercontent.com?hl=vi&project=forum-it
+					Authorized redirect URIs:
+						URIs 1: http://localhost:8099/oauth2/src/oauth2callback.html
+					Client ID: 864028386467-k9vsps9rskj9ji8jc072nf8brrfndod0.apps.googleusercontent.com
+					Client secret: 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
+					Creation date: June 24, 2022 at 5:54:24 PM GMT+7
